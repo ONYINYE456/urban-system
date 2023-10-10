@@ -1,0 +1,46 @@
+body{
+    background-color: #3d0d00;  
+
+}
+
+.container {
+    border: 1px solid black;
+    width: 95%;
+    height: 90vh;
+    display: flex;
+}
+
+button{
+    width:23vw ;
+     height: 2rem;
+    color: black;
+    background-color: #d5d2c1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.quotes{
+    border: 1px solid black;
+    width:80% ;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    background-color: #a46843;
+    border: 10px solid #40686a;
+
+
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }  
+}
